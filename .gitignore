@@ -1,0 +1,9 @@
+#这种写法是注释，好像是linux的语法，下面好像每个都是文件名
+node_modules
+dist
+dll
+npm-debug.log
+.DS_Store
+.idea
+yarn-error.log
+package-lock.json

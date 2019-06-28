@@ -1,0 +1,32 @@
+{
+  "name": "redux-thunk-loading",
+  "version": "1.0.0",
+  "description": "redux middleware which could add or cancel loading state automatically. it also has takeLatest functiong which is the same as redu-saga",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffery021121/redux-thunk-loading.git"
+  },
+  "keywords": [
+    "redux",
+    "loading",
+    "takeLatest",
+    "redux-thunk",
+    "redux-thunk-loading"
+  ],
+  "author": "jeffery021121",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffery021121/redux-thunk-loading/issues"
+  },
+  "homepage": "https://github.com/jeffery021121/redux-thunk-loading#readme",
+  "dependencies": {
+    "immer": "^3.1.3"
+  }
+}
