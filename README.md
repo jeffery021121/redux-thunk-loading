@@ -83,7 +83,7 @@ class APage extends React.Component {
 
 ## what is takeLatest
 
-> when you have multiple requests in a short time, and the result what you need is from the latest request.Maybe the second result is comes back latest. In this time ,you need takeLatest which chould cancel other actions and keep the result is from the latest request.
+> when you have multiple requests in a short time, and the result what you need is from the latest request.Maybe the second result comes back latest. In this time ,you need takeLatest which chould cancel other actions and keep the result is from the latest request.
 
 in this example ,the function that handelThunkA returns should be a generator function.
 when we click the button multiple times in a short time,loading will be 'false'=>'true'=>'false'.but in previous example, it will change many times.
