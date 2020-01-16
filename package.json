@@ -1,6 +1,6 @@
 {
   "name": "redux-thunk-loading",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "redux middleware which could add or cancel loading state automatically. it also has takeLatest functiong which is the same as redu-saga",
   "main": "index.js",
   "directories": {
