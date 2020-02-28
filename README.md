@@ -80,6 +80,10 @@ class APage extends React.Component {
   }
 }
 ```
+> usage in actionFile
+```
+dispatch({ thunk: getTableData(param), name: tableLoading })
+```
 
 ## what is takeLatest
 
